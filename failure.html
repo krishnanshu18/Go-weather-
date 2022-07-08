@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>GoWeather</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Custom styles for this template -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-dark  " style="background-color:#00adb5;">
+  <div class="container" style="margin-left:5px;">
+  <a class="navbar-brand" href="#">☀ GoWeather</a>
+  </div>
+ </nav>
+
+  <div class="jumbotron jumbotron-fluid" style="background-color:#d2d3c9;">
+    <div class="container">
+      <h1 class="display-4">OOPS....!!!</h1>
+      <p class="lead">Sorry! Weather Data is not available for the location you specified.</p>
+      <p><ul>
+        <li>Check the spelling of the city you are searching for.</li>
+        <li>Try Another location.</li>
+      </ul>
+    </p>
+    <br>
+    </div>
+    <form action="/return" method="post">
+      <button class="btn btn-lg btn-info" type="submit" name="button" style = "margin-left: 205px;"> Search Another City</button>
+    </form>
+  </div>
+</body>
+
+</html>
